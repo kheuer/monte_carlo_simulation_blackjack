@@ -163,4 +163,5 @@ for i in range(10):
 plt.xlabel("Standard Deviation")
 plt.ylabel("Expected Value")
 plt.title("Conventional Policy")
+plt.axhline(y=0, color="grey", linestyle="--")  
 plt.legend()
